@@ -25,6 +25,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        l_br {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        r_br {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
